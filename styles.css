@@ -1,0 +1,17 @@
+.ppqol-property-button {
+	--icon-size: 16px;
+	position: absolute;
+	inset-inline-end: 8px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.metadata-property.ppqol-property-row {
+	position: relative;
+	padding-inline-end: 36px;
+}
+
+.ppqol-property-button:hover {
+	color: var(--text-accent);
+}

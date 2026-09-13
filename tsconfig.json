@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+	"typeRoots": ["node_modules/@types", "node_modules/obsidian"],
+	"lib": ["ES2021", "DOM"],
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"module": "ESNext",
+		"target": "es6",
+		"allowJs": false,
+		"noImplicitAny": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"moduleResolution": "bundler",
+		"importHelpers": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"useDefineForClassFields": true,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*.ts", "tests/**/*.ts"]
+}

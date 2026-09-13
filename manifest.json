@@ -1,0 +1,9 @@
+{
+	"id": "pretty-properties-qol",
+	"name": "Pretty Properties QoL",
+	"version": "0.1.0",
+	"minAppVersion": "1.14.1",
+	"description": "Quickly assign and import images for Obsidian image properties.",
+	"author": "DavidJoy",
+	"isDesktopOnly": true
+}
